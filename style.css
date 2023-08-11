@@ -152,6 +152,13 @@ content: "";
 position: absolute;
 bottom: 1.25rem;
 left: -0.9rem;
- 
+ width: 0.8rem;
+ height: 0.8rem;
+ border: 0.4rem solid transparent ;
+ border-top:0.4rem solid black ;
+ border-right: 0.4rem solid black;
+ border-top-right-radius: 0.6rem;
+ transform: rotate(28deg);
 }
+
 
