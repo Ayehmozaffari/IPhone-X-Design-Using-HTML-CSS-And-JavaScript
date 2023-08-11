@@ -240,5 +240,27 @@ left: -0.9rem;
 }
 @media(max-height:800px){
     .mobile-body{
-        transform:scale();
+        transform:scale(0.77) !important;
+}
+.mobile-body:hover{
+    transform: scale(0.68) !important;
+}
+}
+@media(max-width:630px){
+    .mobile-body{
+        transform: scale(0.53) !important;
+    }
+    .mobile-body:hover{
+        transform: scale(0.48)!important;
+    }
+}
+.note{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding: 5px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 12px;
 }
